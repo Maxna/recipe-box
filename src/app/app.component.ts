@@ -28,4 +28,10 @@ export class AppComponent {
   displayEdit(clickedEdit){
     this.editRecipe = clickedEdit;
   }
+
+  addRecipe(nextRecipe){
+    console.log(nextRecipe);
+    let recipe = new Recipe(nextRecipe, '' , '');
+    this.recipes.push(recipe);
+  }
 }

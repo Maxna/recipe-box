@@ -26,6 +26,10 @@
         <label>Enter directions</label>
         <input [(ngModel)]="selectedRecipe.directions">
       </div>
+      <div>
+          <input [(ngModel)]="nextRecipe">
+          <button (click)="addRecipe(nextRecipe)">Add Recipe</button>
+      </div>
     </div>
   </body>
   </html>
