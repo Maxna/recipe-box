@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+  background-color: skyblue;
+}
+li{
+  color: slategrey;
+  font-style: italic;
+  font-weight: bold;
+  font-family: serif;
+}
